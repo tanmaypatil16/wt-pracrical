@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #121212);
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+.calculator {
+    width: 100%;
+    max-width: 340px;
+    background: #2b2b3c;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.calculator:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 144, 0.2);
+}
+
+.display {
+    height: 55px;
+    font-size: 22px;
+    text-align: right;
+    background: #000;
+    color: #00ff90;
+    border: none;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.history {
+    color: #aaa;
+    font-size: 14px;
+    min-height: 24px;
+    word-wrap: break-word;
+}
+
+button {
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px !important;
+    transition: 0.15s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+
+button:active {
+    transform: scale(0.95);
+}
